@@ -36,6 +36,11 @@ input, textarea {
 	margin: 0 auto;
 }
 
+
+
+
+
+
 #main-header {
 	position: relative;
 	background-color: #ffffff;
@@ -138,7 +143,7 @@ main #news_wrap .news_header {
 
 main #news_wrap .news_header h2 {
 	font-size: 14px;
-	font-weight: 700px;
+	font-weight: 700;
 }
 
 main #news_wrap .news_header .news_btn_wrap {
@@ -335,6 +340,9 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	font-size: 12px;
 }
 
+
+
+
 #main_right #account {
 	width: 100%;
 	border: solid 1px #dae1e6;
@@ -464,6 +472,10 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	font-size: 12px;
 }
 
+
+
+
+
 #main-footer {
 	background-color: #fafbfc;
 	border-top: solid 1px #e4e8eb;
@@ -533,6 +545,10 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 #main-footer .corp_lists li a {
 	font-size: 12px;
 }
+
+
+
+
 
 
 /* 쇼핑 페이지 */
@@ -628,6 +644,14 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 
 	font-size: 13px;
 	color: rgba(255, 255, 255, 0.46);
+}
+
+#shop-main .list-item .category-wrap .category-left ul {
+
+}
+
+#shop-main .list-item .category-wrap .category-left li {
+
 }
 
 #shop-main .list-item .category-wrap .category-left a {
@@ -752,6 +776,11 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 #shop-main .list-item .list-half .list-half-header h3 {
 	font-size: 14px;
 }
+
+
+
+
+
 
 #shop-main .list-item .list-half .list-half-header .half-overlay {
 	position: absolute;
@@ -933,6 +962,9 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	height: 100%;
 }
 
+
+
+
 #shop-footer {
 	padding-bottom: 180px;
 	text-align: center;
@@ -968,6 +1000,24 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	color: #888;
 	margin-bottom: 11px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 웹툰 페이지 */
 .webtoon-border {
@@ -1091,6 +1141,10 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	align-items: center;
 }
 
+#webtoon-header .webtoon-header-nav nav {
+	
+}
+
 #webtoon-header .webtoon-header-nav nav ul {
 	display: flex;
 	flex-wrap: wrap;
@@ -1116,6 +1170,10 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	line-height: 40px;
 
 	font-size: 14px;
+}
+
+#webtoon-header .webtoon-header-nav .webtoon-header-link-wrap {
+	
 }
 
 #webtoon-header .webtoon-header-nav .webtoon-header-link-wrap .icon-ex-mark{
@@ -1168,7 +1226,7 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 }
 
 #webtoon-main .webtoon-main-left .webtoon-carousel-left h2 {
-	font-size: 25px
+	font-size: 25px;
 	margin-bottom: 13px;
 }
 
@@ -1234,7 +1292,7 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 }
 
 
-#webtoon-main .webtoon-main-left .webtoon-carousel-banner-nav ul li:fist-child {
+#webtoon-main .webtoon-main-left .webtoon-carousel-banner-nav ul li:first-child {
 	border-left: none;
 }
 
@@ -1387,6 +1445,10 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	margin-bottom: 10px;
 }
 
+#webtoon-main .webtoon-main-left .webtoon-content-col-type-2 .webtoon-lists {
+	
+}
+
 #webtoon-main .webtoon-main-left .webtoon-content-col-type-2 .webtoon-lists li {
 	display: flex;
 	flex-wrap: wrap;
@@ -1421,6 +1483,28 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	vertical-align: middle;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #webtoon-main .webtoon-main-right {
 	float: right;
 
@@ -1451,6 +1535,10 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	height: 110px;
 
 	margin-bottom: 18px;
+}
+
+#webtoon-main .webtoon-main-right .webtoon-challenge-wrap .webtoon-info {
+
 }
 
 #webtoon-main .webtoon-main-right .webtoon-challenge-wrap .webtoon-info .webtoon-title-wrap {
@@ -1557,6 +1645,10 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	padding: 15px 0 7px;
 }
 
+#webtoon-main .webtoon-main-right .webtoon-popular .webtoon-popular-ranking ol {
+	
+}
+
 #webtoon-main .webtoon-main-right .webtoon-popular .webtoon-popular-ranking li {
 	display: flex;
 	flex-wrap: wrap;
@@ -1617,6 +1709,11 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	background-color: blue;
 }
 
+#webtoon-main .webtoon-main-right .webtoon-popular .webtoon-popular-ranking .rank-box .number {
+	
+}
+
+
 /* 썸네일 이미지가 포함된 랭킹 */
 #webtoon-main .webtoon-main-right .webtoon-popular .webtoon-popular-ranking .rank.rank-custom {
 	position: relative;
@@ -1649,6 +1746,15 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 #webtoon-main .webtoon-main-right .webtoon-popular .webtoon-popular-ranking .image-wrap .webtoon-info .author {
 	display: block;
 }
+
+
+
+
+
+
+
+
+
 
 #webtoon-footer {
 	padding-bottom: 78px;
@@ -1709,6 +1815,10 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	margin: 0 8px;
 }
 
+#webtoon-footer .webtoon-footer-wrap ul li a  {
+
+}
+
 #webtoon-footer .webtoon-footer-wrap span {
 	text-transform: uppercase;
 }
@@ -1716,6 +1826,7 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 #webtoon-footer .webtoon-footer-paragraph {
 	padding-left: 25px;
 }
+
 
 
 /* 웹툰 상세 페이지 */
@@ -1903,4 +2014,496 @@ main #blog_wrap .blog_media_wrap ul .blog_media_info span {
 	background-color: #3a3a3a;
 	border-color: #3a3a3a;
 	color: #fbcb00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.webtoon-detail #webtoon-total-day .webtoon-day-list:last-child {
+	border-right: none;
+}
+
+.webtoon-detail #webtoon-total-day .webtoon-day-list span {
+	display: block;
+	height: 32px;
+	line-height: 32px;
+}
+
+.webtoon-detail #webtoon-total-day .webtoon-day-list .webtoon-list {
+	margin-bottom: 10px;
+}
+
+.webtoon-detail #webtoon-total-day .webtoon-day-list .webtoon-list img {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.webtoon-detail #webtoon-total-day .webtoon-day-list span,
+.webtoon-detail #webtoon-total-day .webtoon-day-list .webtoon-list h3 {
+	font-size: 14px;
+}
+
+/*네이버 블로그*/
+.blog-container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+#blog-header .blog-header-top {
+	height: 60px;
+	background-color: #00c73c;
+	border-bottom: 1px solid #51b036;
+}
+
+#blog-header .blog-header-top .blog-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+#blog-header .blog-header-top .blog-header-left {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#blog-header .blog-header-top .blog-header-left h2 {
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+#blog-header .blog-header-top .blog-header-left h2 a {
+	color: #ffffff;
+	font-weight: 700;
+}
+
+#blog-header .blog-header-top .blog-header-input-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#blog-header .blog-header-top .blog-search-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	width: 325px;
+	height: 40px;
+	background-color: #ffffff;
+
+	margin-right: 5px;
+}
+
+#blog-header .blog-header-top .blog-search-wrap input {
+	width: calc(100% - 40px);
+	height: 40px;
+	background-color: #ffffff;
+	border: solid 1px #4da733;
+
+	padding: 0 15px;
+}
+
+#blog-header .blog-header-top .blog-search-wrap input:focus {
+	outline: none;
+}
+
+#blog-header .blog-header-top .blog-search-wrap .btn-search {
+	width: 40px;
+	height: 40px;
+	background-color: #28a93a;
+	border: solid 1px #239e36;
+}
+
+#blog-header .blog-header-top .btn-total-search {
+	width: auto;
+	height: 40px;
+	background-color: #28a93a;
+	border: solid 1px #239e36;
+
+	padding: 0 5px;
+
+	line-height: 40px;
+	color: #ffffff;
+}
+
+
+#blog-header .blog-header-top .blog-header-right {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#blog-header .blog-header-top .blog-header-right .btn-login {
+	display: inline-block;
+	border: solid 1px #239e36;
+
+	padding: 2px 5px;
+	margin-right: 20px;
+
+	color: #ffffff;
+
+	font-size: 12px;
+}
+
+#blog-header .blog-header-top .blog-header-right .btn-menu {
+		width: 60px;
+		height: 60px;
+		background-color: #00c73c;
+		border-left: solid 1px #239e36;
+		border-right: solid 1px #239e36;
+
+		cursor: pointer;
+}
+
+
+#blog-header .blog-header-nav {
+	height: 40px;
+	background-color: #ffffff;
+	border-bottom: solid 1px #e5e5e5;
+}
+
+#blog-header .blog-header-nav .blog-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#blog-header .blog-header-nav .nav-left {
+	
+}
+
+#blog-header .blog-header-nav .nav-left ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#blog-header .blog-header-nav .nav-left ul li {
+	height: 40px;
+	margin-right: 16px;
+	border-bottom: solid 2px transparent;
+	/*border-bottom: solid 2px #00AB33;*/
+}
+
+#blog-header .blog-header-nav .nav-left ul li.on {
+	border-bottom: solid 2px #00AB33;
+}
+
+#blog-header .blog-header-nav .nav-left li a {
+	display: block;
+
+	width: 100%;
+	height: 100%;
+	line-height: 40px;
+
+	font-size: 13px;
+}
+
+#blog-header .blog-header-nav .nav-right {
+
+}
+
+#blog-header .blog-header-nav .nav-right ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#blog-header .blog-header-nav .nav-right li {
+	width: auto;
+	height: 26px;
+
+	margin-left: 8px;
+}
+
+#blog-header .blog-header-nav .nav-right li.on a {
+	background-color: #00c73c;
+	border: solid 1px rgba(0, 0, 0, 0.07);
+	color: #ffffff;
+}
+
+#blog-header .blog-header-nav .nav-right li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	border: 1px solid #cecece;
+
+	line-height: 26px;
+	padding: 0 10px;
+
+	font-size: 13px;
+}
+
+
+.blog-main #hot-topic {
+	height: 305px;
+	background-color: #f5f5f6;
+	padding: 20px 0 15px;
+}
+
+.blog-main #hot-topic .blog-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blog-main #hot-topic .hot-topic-left {
+	position: relative;
+	width: 770px;
+}
+
+.blog-main #hot-topic .hot-topic-left .topic-heading {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	margin-bottom: 11px;
+}
+
+.blog-main #hot-topic .hot-topic-left .topic-heading h3 {
+	font-size: 16px;
+	font-weight: 600;
+	color: #e55e5e;
+}
+
+.blog-main #hot-topic .hot-topic-left .topic-heading i {
+	display: block;
+	width: 8px;
+	height: 13px;
+	background-color: grey;
+	margin: 0 8px;
+}
+
+.blog-main #hot-topic .hot-topic-left .topic-heading a {
+	font-size: 16px;
+}
+
+.blog-main #hot-topic .hot-topic-left .topic-lists {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blog-main #hot-topic .hot-topic-left .topic-lists li {
+	position: relative;
+	width: 252px;
+	height: 240px;
+}
+
+.blog-main #hot-topic .hot-topic-left .topic-lists img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.blog-main #hot-topic .hot-topic-left .topic-lists p {
+	position: absolute;
+	width: 100%;
+	background-color: rgba(55, 66, 87, 0.9);
+
+	padding: 20px 0;
+
+	bottom: 0;
+
+	color: #ffffff;
+
+	text-align: center;
+
+}
+
+
+.blog-main #hot-topic .pagination-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.blog-main #hot-topic .pagination-wrap a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin-left: 4px;
+	border: solid 1px rgba(221, 221, 223, 0.8);
+	background-color: #f6f6f7;
+
+	color: #888;
+
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+
+
+
+
+.blog-main #hot-topic .hot-topic-right {
+	position: relative;
+	width: 280px;
+	padding-top: 30px;
+}
+
+.blog-main #hot-topic .hot-topic-right .topic-banner {
+	width: 280px;
+	height: 240px;
+	background-color: black;
+}
+
+.blog-main #blog-main-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.blog-main #blog-main-content .blog-main-left {
+	width: 770px;
+}
+
+.blog-main #blog-main-content .blog-main-left #blog-main-notification {
+	background-color: #ffffff;
+	padding: 54px 0;
+
+	text-align: center;
+}
+
+.blog-main #blog-main-content .blog-main-left #blog-main-notification p {
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.blog-main #blog-main-content .blog-main-left #blog-article .blog-article-nav {
+	background-color: #ffffff;
+	border-top: solid 1px #999999;
+	border-bottom: solid 1px #999999;
+
+	padding: 10px 0;
+
+	font-size: 14px;
+}
+
+
+.blog-main #blog-main-content .blog-main-left .blog-article-nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.blog-main #blog-main-content .blog-main-left .blog-article-nav li {
+	margin-right: 22px;	
+}
+
+.blog-main #blog-main-content .blog-main-left .blog-article-nav a {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+.blog-main #blog-main-content .blog-main-left .blog-article-lists {
+
+}
+
+.blog-main #blog-main-content .blog-article-lists li {
+	width: 100%;
+	border-bottom: solid 1px #eeeeef;
+
+	padding: 25px 0 23px;
+}
+
+.blog-main #blog-main-content .blog-article-lists li a {
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 100%;
+	height: 100%;
+}
+
+.blog-main #blog-main-content .blog-article-lists .blog-article-info {
+	width: 573px;
+
+}
+
+.blog-main #blog-main-content .blog-article-lists .blog-profile-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.blog-main #blog-main-content .blog-article-lists .blog-profile-wrap img {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+
+	margin-right: 10px;
+}
+
+.blog-main #blog-main-content .blog-article-lists .blog-profile-info {
+
+}
+
+.blog-main #blog-main-content .blog-article-lists .blog-profile-info h3 {
+	font-size: 14px;
+	margin-bottom: 3px;
+}
+
+.blog-main #blog-main-content .blog-article-lists .blog-profile-info p {
+	font-size: 11px;
+	color: #959595;
+}
+
+.blog-main #blog-main-content .blog-article-lists h2 {
+	margin-top: 16px;
+	font-size: 17px;
+}
+
+.blog-main #blog-main-content .blog-article-lists .paragraph {
+	margin-top: 10px;
+	font-size: 13px;
+	color: #666666;
+}
+
+.blog-main #blog-main-content .blog-article-lists .comments {
+	margin-top: 14px;
+	color: #959595;
+	font-size: 12px;
+}
+
+
+.blog-main #blog-main-content .blog-article-lists .comments span {
+	margin-right: 9px;
+}
+
+.blog-main #blog-main-content .blog-article-lists .comments em {
+	font-style: normal;
 }
